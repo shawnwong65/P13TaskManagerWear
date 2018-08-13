@@ -66,7 +66,7 @@ public class TaskReminderReceiver extends BroadcastReceiver {
 				.build();
 
 		RemoteInput ri2 = new RemoteInput.Builder("add")
-				.setLabel("Status report")
+				.setLabel("Add")
 				.build();
 
 		NotificationCompat.Action action3 = new
